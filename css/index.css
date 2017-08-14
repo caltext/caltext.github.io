@@ -1,0 +1,154 @@
+body {
+	background-color: #EFEFEF;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    
+}
+
+
+#contents {
+    padding: 40px 30px 30px;
+/*  background-image: url("sidebar-back.png");  */
+    background-color: #b5b5b7;
+    max-width: 750px;
+    margin: auto;
+}
+
+/* Content */
+#contents h2 {
+    color: #2F86EB;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 25px 0 0;
+    border-top: 2px solid #2F86EB;
+    padding-top: 35px;
+}
+
+#contents h3 {
+    color: #2F86EB;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 25px 0 0;
+}
+
+#contents li {
+	font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    margin: 10px 0;
+
+}
+
+p {
+    text-indent: 40px;
+    line-height: 22px;
+    font-size: 17px;
+    font-family: "Comic Sans MS", "Arial";
+}
+
+#about a {
+    text-decoration: none;
+    color: #2F86EB;
+}
+
+#table a {
+	text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: "Comic Sans MS";
+}
+
+#table a:hover {
+    color: #56BDF9;
+}
+
+#courses a {
+    text-decoration: none;
+    color: #595959;
+    font-weight: 500;
+    font-family: "Courier New";
+}
+
+#courses a:hover {
+    text-decoration:none;
+    color: #56BDF9;
+}
+
+#courses li {
+    font-family: "Georgia", "Comic Sans MS";
+}
+
+/* Sidebar */
+#sidebar {
+	float: left;
+    position: fixed;
+    width: 130px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    z-index: 5;
+    background-color: #677077;
+    margin-top: 0px;
+    padding: 0 20px;
+}
+
+#sidebar a {
+    font-family: "Comic Sans MS", "Arial","Georgia";
+    font-size: 15px;
+    text-decoration: none;
+    color:  #D6D6CC;
+    font-weight: 400;
+}
+#sidebar a:hover {
+    color: #56BDF9;
+}
+
+#sidebar h3 {
+    font-family: "Comic Sans MS", "Arial";
+    color: #EBEBE6;
+}
+
+
+#sidebar-content {
+    padding: 0 0 100px;
+}
+#sidebar-content > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+#sidebar-content > ul > li {
+    margin-top: 20px;
+    line-height: 18px;
+    color: #555;
+    font-weight: 600;
+    font-size: 14px;
+}
+#sidebar-content > ul > ul {
+    display: none;
+}
+
+#support > img {
+    height: 300px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#qrcode > img{
+    width: 120px;
+    height: 120px;
+    float: right;
+    margin-top: 200px;
+    margin-right: 40px;
+}
+
+.title {
+    font-family: "Comic Sans MS", "Arial";
+    font-size: 52px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+
