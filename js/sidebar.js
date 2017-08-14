@@ -5,7 +5,6 @@
 var SIDEBAR_JQ = "#sidebar";
 var CONTENT_CONTAINER_JQ = "#content-container";
 var CONTENT_SPACER_CLASS = "content-spacer";
-var TOC_BUTTON_ID = "toc-button";
 
 /**
  * Decide what to do with the sidebar based on the screen size.
@@ -44,31 +43,7 @@ var flipSidebar = function() {
     }
 }
 
-/**
- * Add a Table of Contents button to the nav bar if there isn't already one.
- */
-var addTocButton = function() {
-    if (document.getElementById(TOC_BUTTON_ID)) {
-        return;
-    }
-    var tocButton = document.createElement("button");
-    tocButton.id = TOC_BUTTON_ID;
-    tocButton.innerHTML = '<i id="toc-button" class="material-icons md-light">list</i>';
-    tocButton.onclick = flipSidebar;
 
-    var navBar = document.getElementById("navbar");
-    navBar.insertBefore(tocButton, navBar.firstChild);
-}
-
-/**
- * Remove the Table of Contents button from the nav bar if there is one.
- */
-var removeTocButton = function() {
-    var tocButton = document.getElementById(TOC_BUTTON_ID);
-    if (tocButton) {
-       tocButton.parentNode.removeChild(tocButton);
-    }
-}
 
 $(document).ready(showOrHideSidebar);
 
