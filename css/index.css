@@ -41,14 +41,15 @@ body {
 
 p {
     text-indent: 40px;
-    line-height: 22px;
+    line-height: 20px;
     font-size: 17px;
-    font-family: "Comic Sans MS", "Arial";
+    font-family: "Tahoma", "Palatino", "Arial";
 }
 
 #about a {
     text-decoration: none;
     color: #2F86EB;
+    font-family: "Georgia";
 }
 
 #table a {
@@ -75,7 +76,9 @@ p {
 }
 
 #courses li {
-    font-family: "Georgia", "Comic Sans MS";
+    font-family: "Trebuchet MS", "Helvetica", "Courier New";
+    font-variant-numeric: slashed-zero;
+
 }
 
 /* Sidebar */
@@ -144,7 +147,7 @@ p {
 }
 
 .title {
-    font-family: "Comic Sans MS", "Arial";
+    font-family: "Comic Sans MS", "Charcoal", "Arial";
     font-size: 52px;
     font-weight: 400;
     letter-spacing: 5px;
